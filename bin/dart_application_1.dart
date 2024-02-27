@@ -8,6 +8,7 @@ import 'factorial.dart';
 import 'fibonacci.dart';
 import 'gcd.dart';
 import 'largest.dart';
+import 'leap.dart';
 import 'prime.dart';
 import 'quotient reminder.dart';
 import 'sum.dart';
@@ -29,4 +30,5 @@ void main() {
 //fibonacci();
 //prime();
 //sum();
+leapyear();
 }
