@@ -12,7 +12,7 @@ import 'gcd.dart';
 import 'largest.dart';
 import 'leap.dart';
 import 'leftpattern.dart';
-import 'mutable.dart';
+import 'multable.dart';
 import 'palindrome.dart';
 import 'prime.dart';
 import 'pyramidpattern.dart';
@@ -29,20 +29,21 @@ void main() {
 
 //reminder();
 
-  swap();
-  oddeven();
-  largest();
-  factorial();
-  gcd();
-  gcd2();
-  fibonacci();
-  prime();
-  sum();
-  leapyear();
-  amsrong();
-  multable();
-  rightpattern();
-  leftpattern();
-  pyramidpattern();
-  print(palindrome(121));
+  //swap();
+  //oddeven();
+  // largest();
+  // factorial();
+  // gcd();
+  // gcd2();
+  // fibonacci();
+  // prime();
+  // sum();
+  // leapyear();
+  // amsrong();
+   multable();
+   multable2();
+  // rightpattern();
+  // leftpattern();
+  // pyramidpattern();
+  //print(palindrome(121));
 }
