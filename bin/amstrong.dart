@@ -12,10 +12,10 @@ void amsrong(){
     sum=sum+(r*r*r);
     n=n~/10;}
     if(temp==sum){
-      print("amstrong number");
+      print("the number is amstrong");
 
     }else{
-      print("not amstrong number");
+      print("the number is not amstrong");
     }
   
 }

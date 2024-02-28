@@ -1,19 +1,19 @@
 import 'dart:io';
 
-void palindrome(){
-  print("enter the number=");
-  int n=int.parse(stdin.readLineSync()!);
+dynamic palindrome(int n){
   int r;
   int sum=0;
-  
+  int temp=0;
+  temp=n;
   while(n>0){
     r=n%10;
     sum=(sum*10)+r;
     n=n~/10;
-    int temp;
-  }if(temp==sum){
-    print("palindrome number");
+  }
+  print(sum);
+  if(temp==sum){
+    return true;
   }else{
-    print("not palindrome");
+    return false;
   }
 }

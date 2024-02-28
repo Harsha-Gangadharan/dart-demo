@@ -1,7 +1,8 @@
 import 'dart:io';
 import 'dart:web_gl';
 
-import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+import 'package:dart_application_1/dart_application_1.dart'
+    as dart_application_1;
 
 import 'amstrong.dart';
 import 'even and odd.dart';
@@ -28,19 +29,20 @@ void main() {
 
 //reminder();
 
-//swap();
-//oddeven();
-//largest();
-//factorial();
-//gcd();
-//fibonacci();
-//prime();
-//sum();
-//leapyear();
-//amsrong();
-//multable();
-//rightpattern();
-//leftpattern();
-//pyramidpattern();
-palindrome();
+  swap();
+  oddeven();
+  largest();
+  factorial();
+  gcd();
+  gcd2();
+  fibonacci();
+  prime();
+  sum();
+  leapyear();
+  amsrong();
+  multable();
+  rightpattern();
+  leftpattern();
+  pyramidpattern();
+  print(palindrome(121));
 }
