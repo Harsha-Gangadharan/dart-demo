@@ -3,14 +3,20 @@ import 'dart:web_gl';
 
 import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
+import 'amstrong.dart';
 import 'even and odd.dart';
 import 'factorial.dart';
 import 'fibonacci.dart';
 import 'gcd.dart';
 import 'largest.dart';
 import 'leap.dart';
+import 'leftpattern.dart';
+import 'mutable.dart';
+import 'palindrome.dart';
 import 'prime.dart';
+import 'pyramidpattern.dart';
 import 'quotient reminder.dart';
+import 'rightpattern.dart';
 import 'sum.dart';
 import 'swap.dart';
 
@@ -30,5 +36,11 @@ void main() {
 //fibonacci();
 //prime();
 //sum();
-leapyear();
+//leapyear();
+//amsrong();
+//multable();
+//rightpattern();
+//leftpattern();
+//pyramidpattern();
+palindrome();
 }
