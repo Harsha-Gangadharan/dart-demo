@@ -26,6 +26,7 @@ import 'reverse.dart';
 import 'rightpattern.dart';
 import 'sum.dart';
 import 'swap.dart';
+import 'swaplist.dart';
 import 'vowel.dart';
 
 void main() {
@@ -61,5 +62,6 @@ void main() {
  // reverse();
  //revlist();
  //fib();
- decibin();
+ //decibin();
+ swaplist();
 }
