@@ -5,6 +5,7 @@ import 'package:dart_application_1/dart_application_1.dart'
     as dart_application_1;
 
 import 'amstrong.dart';
+import 'count.dart';
 import 'decimalbinary.dart';
 import 'email.dart';
 import 'even and odd.dart';
@@ -30,6 +31,7 @@ import 'sort.dart';
 import 'sort2.dart';
 import 'sort3.dart';
 import 'sum.dart';
+import 'sumlist.dart';
 import 'swap.dart';
 import 'swaplist.dart';
 import 'vowel.dart';
@@ -68,10 +70,13 @@ void main() {
  //revlist();
  //fib();
  //decibin();
- //swaplist();
+//swaplist();
  //sort();
  //sort2();
  //merge();
  //merge2();
  //sort3();
+ //sumlist();
+ //count();
+ countBits(12);
 }
