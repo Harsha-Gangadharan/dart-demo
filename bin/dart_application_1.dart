@@ -20,10 +20,12 @@ import 'merge2.dart';
 import 'multable.dart';
 import 'nthfibonacci.dart';
 import 'palindrome.dart';
+import 'person.dart';
 import 'prime.dart';
 import 'primerange.dart';
 import 'pyramidpattern.dart';
 import 'quotient reminder.dart';
+import 'rectangle.dart';
 import 'rerverselist.dart';
 import 'reverse.dart';
 import 'rightpattern.dart';
@@ -34,6 +36,7 @@ import 'sum.dart';
 import 'sumlist.dart';
 import 'swap.dart';
 import 'swaplist.dart';
+import 'twosum.dart';
 import 'vowel.dart';
 
 void main() {
@@ -78,5 +81,19 @@ void main() {
  //sort3();
  //sumlist();
  //count();
- countBits(12);
+ //int n1 = 2;
+  //int n2 = 5;
+
+  //print(countBits(n1)); // Output: [0, 1, 1]
+  //print(countBits(n2));
+ //countBits(5);
+
+ // twosum();
+ //person p =person();
+ //p.printdetails();
+ Rectangle r=Rectangle(2,3);
+print( r.calculatearea());
+print(r.calculateperimeter()) ;
+
+
 }
