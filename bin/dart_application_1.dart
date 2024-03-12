@@ -12,6 +12,9 @@ import 'even and odd.dart';
 import 'factorial.dart';
 import 'fibonacci.dart';
 import 'gcd.dart';
+import 'house.dart';
+import 'inheritance.dart';
+import 'laptop.dart';
 import 'largest.dart';
 import 'leap.dart';
 import 'leftpattern.dart';
@@ -37,6 +40,7 @@ import 'sumlist.dart';
 import 'swap.dart';
 import 'swaplist.dart';
 import 'twosum.dart';
+import 'vehicle.dart';
 import 'vowel.dart';
 
 void main() {
@@ -87,13 +91,21 @@ void main() {
   //print(countBits(n1)); // Output: [0, 1, 1]
   //print(countBits(n2));
  //countBits(5);
-
  // twosum();
  //person p =person();
  //p.printdetails();
- Rectangle r=Rectangle(2,3);
-print( r.calculatearea());
-print(r.calculateperimeter()) ;
+// Rectangle r=Rectangle(2,3);
+//print( r.calculatearea());
+//print(r.calculateperimeter()) ;
+//Circle c=Circle();
+//c.area();
+//c.are();
+//Laptop p=Laptop(2, "hp", 100);
+//p.details();
+//House u=House(1, "g", 1);
+//u.housedetails();
+Vehicle v=Vehicle("h", "l", 2);
+v.vehicledetails();
 
 
 }
