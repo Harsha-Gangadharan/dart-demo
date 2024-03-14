@@ -5,6 +5,7 @@ import 'package:dart_application_1/dart_application_1.dart'
     as dart_application_1;
 
 import 'amstrong.dart';
+import 'bank.dart';
 import 'count.dart';
 import 'decimalbinary.dart';
 import 'email.dart';
@@ -32,6 +33,7 @@ import 'rectangle.dart';
 import 'rerverselist.dart';
 import 'reverse.dart';
 import 'rightpattern.dart';
+import 'shape.dart';
 import 'sort.dart';
 import 'sort2.dart';
 import 'sort3.dart';
@@ -104,8 +106,15 @@ void main() {
 //p.details();
 //House u=House(1, "g", 1);
 //u.housedetails();
-Vehicle v=Vehicle("h", "l", 2);
-v.vehicledetails();
+//Vehicle v=Vehicle("h", "l", 2);
+//v.vehicledetails();
+//Circle c =Circle(2);
+//print(c.calculateArea());
 
-
+//Rectangle r=Rectangle(3,1);
+//print(r.calculateArea()) ;
+BankAccount b  =BankAccount(34, "harsha");
+b.deposit(500);
+b.withdraw(300);
+b.getbalance();
 }

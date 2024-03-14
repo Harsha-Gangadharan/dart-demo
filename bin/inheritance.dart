@@ -1,12 +1,12 @@
 import 'dart:io';
 
 class Twodim {
-  void area() {
+  void ara() {
     print("area of twodimension shapes");
   }
 }
 
-class Circle extends Twodim {
+class Cire extends Twodim {
   dynamic pi = 3.14, a;
   void are() {
     int r = int.parse(stdin.readLineSync()!);

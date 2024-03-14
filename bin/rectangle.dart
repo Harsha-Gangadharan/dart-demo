@@ -1,10 +1,10 @@
 
 
-class Rectangle
+class Rectale
 {
   int width=0;
   int length=0;
-  Rectangle(int l1,int w1){
+  Rectale(int l1,int w1){
     width=w1;
     length=l1;
   }

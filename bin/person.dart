@@ -1,4 +1,4 @@
-class person{
+class Person{
   dynamic name="harsha";
   int age = 22;
 void printdetails(){
